@@ -65,7 +65,7 @@ const App: React.FC = ( ) =>  {
 
         {/* Form */ }
     <form>
-          <h4>Please write your list! Make sure to write it this way: "fruit, price, "(make sure to leave a space after the last comma)</h4>
+          <h4>Please write your list! Make sure to write it this way: "fruit, price, "(make sure to put a space after the last comma)</h4>
           <input value={value} placeholder="Enter your list" onChange={handleProducts}/>
           <AddButton products={products} />
     </form>
